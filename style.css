@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#F5CF06;
+    --secundary-color:#8E4106;
+    --white:#FFFFFF;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color:darkmagenta;
+    height: 10%;
+}
+
+main{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+footer{
+    background-color: blue;
+    height: 10%;
+}
