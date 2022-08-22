@@ -8,16 +8,33 @@
     --primary-color:#F5CF06;
     --secundary-color:#8E4106;
     --white:#FFFFFF;
+    --space-default: 70px;
 }
 
 body{
     height: 100vh;
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: var(--space-default);
+    padding-right: var(--space-default);
+    padding-bottom: 24px;
+
+    padding: 45px 85px 15px 23px;
 }
 
 header{
-    background-color:darkmagenta;
     height: 10%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
 }
 
 main{
